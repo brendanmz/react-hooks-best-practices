@@ -17,7 +17,7 @@ export const LazyLoadSlowState = () => {
 
   return (
     <div>
-      LazyLoadSlowState
+      <h1>Lazy Load Slow State</h1>
       {bigList}
       <button onClick={() => setBigList('🙉')}>Say hello monkey</button>
     </div>

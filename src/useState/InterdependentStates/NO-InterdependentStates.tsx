@@ -39,6 +39,7 @@ export const InterdependentStates = () => {
 
   return (
     <div className='flex-column'>
+      <h1>Interdependent States</h1>
       <div>
         <label htmlFor='addingCounter'>Counter: {addingCounter}</label>
         <button id='addingCounter' onClick={handleAddingClick}>

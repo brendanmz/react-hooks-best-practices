@@ -14,9 +14,9 @@ function App() {
       <div className='divider' />
       <LazyLoadSlowState />
       <div className='divider' />
-      <UseRefAsState />
-      <div className='divider' />
       <UseRefTypicalUse />
+      <div className='divider' />
+      <UseRefAsState />
     </div>
   );
 }

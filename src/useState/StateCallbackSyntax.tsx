@@ -21,7 +21,8 @@ export const StateCallbackSyntax = () => {
 
   return (
     <div>
-      <h1>Count: {count}</h1>
+      <h1>useState Callback Syntax</h1>
+      <h2>Count: {count}</h2>
       <button onClick={increase}>Increase</button>
       <button onClick={increaseTwice}>Increase Twice</button>
       <button onClick={decrease}>Decrease</button>

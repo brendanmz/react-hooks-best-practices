@@ -4,7 +4,7 @@ import { useRef, useState } from 'react';
  * useRef can be used as state in some cases
  * Changes to the value DO NOT cause re-render
  * This is useful in storing values outside of the render lifecycle
- * 
+ *
  * You can use it in a similar way to `let` in vanilla js
  */
 
@@ -23,8 +23,9 @@ export const UseRefAsState = () => {
   };
 
   return (
-    <button onClick={handleClick}>
-      UseRefAsState: {persistentValue.current}
-    </button>
+    <>
+      <h1>useRef As State</h1>
+      <button onClick={handleClick}>{persistentValue.current}</button>
+    </>
   );
 };
