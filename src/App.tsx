@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { LazyLoadSlowState } from './useState/LazyLoadSlowState';
+import { InterdependentStates } from './useState/InterdependentStates/NO-InterdependentStates';
+import { StateCallbackSyntax } from './useState/StateCallbackSyntax';
+import { UseRefAsState } from './useRef/UseRefAsState';
+import { UseRefTypicalUse } from './useRef/UseRefTypicalUse';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <StateCallbackSyntax />
+      <div className='divider' />
+      <InterdependentStates />
+      <div className='divider' />
+      <LazyLoadSlowState />
+      <div className='divider' />
+      <UseRefAsState />
+      <div className='divider' />
+      <UseRefTypicalUse />
     </div>
   );
 }
