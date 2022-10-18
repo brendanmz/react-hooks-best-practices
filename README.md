@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+Some less common use cases of commonly used React hooks. As well as some best practices
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
